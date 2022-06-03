@@ -25,13 +25,13 @@ export default function App() {
         {index > 0 ? (
           <FaArrowAltCircleLeft
             onClick={() => setIndex(index - 1)}
-            size="30px"
+            size="40px" color='rgb(31, 132, 165)'
           />
         ) : null}
         {index < slides.length - 1 ? (
           <FaArrowAltCircleRight
             onClick={() => setIndex(index + 1)}
-            size="30px"
+            size="40px" color='rgb(31, 132, 165)'
           />
         ) : null}
       </div>

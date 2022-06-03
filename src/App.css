@@ -12,23 +12,27 @@
   height: 400px;
   max-width: 800px;
   text-align: center;
+  margin: 20px auto;
   position: relative;
+  margin-top: 80px;
+  border:5px solid rgb(31, 132, 165);
+  border-radius: 7px;
 }
 img {
   width: 80vw;
-  height: 50vh;
+  height: 55vh;
 }
 .page {
   position: absolute;
   top: 0%;
   left: 35%;
   color:#fff;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 section {
   position: absolute;
-  top: 25%;
-  left: 25%;
+  top: 0;
+  left: 0;
   width: 80vw;
   height: 50vh;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -42,6 +46,7 @@ section.activeSlide {
   transform: translateX(0);
   opacity: 1;
 }
+
 section.lastSlide {
   transform: translateX(-100%);
 }
