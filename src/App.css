@@ -15,7 +15,7 @@
   margin: 20px auto;
   position: relative;
   margin-top: 80px;
-  border:5px solid rgb(31, 132, 165);
+  border: 5px solid rgb(31, 132, 165);
   border-radius: 7px;
 }
 img {
@@ -26,7 +26,7 @@ img {
   position: absolute;
   top: 0%;
   left: 35%;
-  color:#fff;
+  color: #fff;
   font-size: 3rem;
 }
 section {
