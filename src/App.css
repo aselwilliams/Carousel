@@ -46,7 +46,6 @@ section.activeSlide {
   transform: translateX(0);
   opacity: 1;
 }
-
 section.lastSlide {
   transform: translateX(-100%);
 }
