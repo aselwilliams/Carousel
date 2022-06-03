@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Slides({slides}) {
+function Slides({slides, index}) {
   return (
     <main className="wrapper">
     {slides.map((slide, i) => {
