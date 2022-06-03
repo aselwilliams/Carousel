@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import data from "./data";
+import Slides from "./Slides";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
 export default function App() {
@@ -8,19 +9,7 @@ export default function App() {
   const [index, setIndex] = useState(1);
   return (
     <div className="App">
-      <main className="wrapper">
-        {slides.map((slide, i) => {
-          let position = "nextSlide";
-          if (i === index) position = "activeSlide";
-          if (i === index - 1) position = "lastSlide";
-          return (
-            <section key={slide.id} className={position}>
-              <img src={slide.image} alt="nature" />
-              <span className="page">{slide.id}</span>
-            </section>
-          );
-        })}
-      </main>
+      <Slides slides={slides} />
       <div>
         {index > 0 ? (
           <FaArrowAltCircleLeft
